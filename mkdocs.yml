@@ -1,0 +1,66 @@
+# Project information
+site_name: 'College Projects'
+site_description: 'Introduction to College Projects. The textbook that a software developer must read.'
+site_author: 'Bhuwan Upadhyay'
+site_url: 'https://bhuwanupadhyay.github.io/college-projects'
+
+# Repository
+repo_name: 'BhuwanUpadhyay/college-projects'
+repo_url: 'https://github.com/BhuwanUpadhyay/college-projects'
+
+# Copyright
+copyright: 'Built by <a href="http://github.com/BhuwanUpadhyay">Bhuwan Upadhyay</a> &copy; 2020'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  custom_dir: 'custom/'
+  favicon: 'assets/favicon.png'
+  palette:
+    primary: 'Teal'
+    accent: 'Blue'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo:
+    icon: 'import_contacts'
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/BhuwanUpadhyay'
+    - type: 'quote-left'
+      link: 'https://bhuwanupadhyay.github.io/blog'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/developerbhuwan/'
+
+extra_css:
+  - 'css/katex.css'
+  - 'https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css'
+
+extra_javascript:
+  - 'js/katex.js'
+  - 'https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js'
+  - 'https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js'
+
+## Google Analytics
+#google_analytics:
+#  - 'G-2646JVG463'
+#  - 'auto'
+
+# Extensions
+markdown_extensions:
+  - codehilite:
+      linenums: true
+  - toc:
+      permalink: false
+  - pymdownx.superfences
+
+nav:
+  - Preface: index.md
+  - Color: color.md
+  - I Foundations:
+      - 1 The Role of Cloud Computing:
+          - 1.1 Cloud Computing: Chap01/1.1.md

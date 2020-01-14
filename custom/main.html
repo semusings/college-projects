@@ -1,0 +1,16 @@
+<!-- Fix MathJax rendering on iOS Safari due to rendering long numbers as phone numbers. -->
+{% extends "base.html" %}
+
+{% block site_meta %}
+	{{ super() }}
+	<meta name="format-detection" content="telephone=no">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-2646JVG463"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-2646JVG463');
+	</script>
+{% endblock %}

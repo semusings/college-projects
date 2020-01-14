@@ -1,0 +1,28 @@
+{
+  "name": "college-projects",
+  "version": "1.0.0",
+  "description": "References for College Projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "mkdocs serve",
+    "build": "mkdocs build",
+    "publish": "node publish.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhuwanUpadhyay/college-projects.git"
+  },
+  "keywords": [
+    "college-projects",
+    "microservices"
+  ],
+  "author": "Bhuwan Prasad Upadhyay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BhuwanUpadhyay/college-projects/issues"
+  },
+  "homepage": "https://github.com/BhuwanUpadhyay/college-projects#readme",
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
