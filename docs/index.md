@@ -1,5 +1,7 @@
 # A Beginner's Guide to **College Projects** _First Edition_
 
+![College Projects](assets/cover.png)
+
 ## Getting Started
 
 This **[website](https://bhuwanupadhyay.github.io/college-projects/)** contains nearly complete solutions to college projects.

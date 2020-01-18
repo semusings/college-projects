@@ -6,7 +6,7 @@
   "scripts": {
     "start": "mkdocs serve",
     "build": "mkdocs build",
-    "publish": "node publish.js"
+    "publish": "npm run build && node publish.js"
   },
   "repository": {
     "type": "git",
