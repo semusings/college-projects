@@ -18,7 +18,7 @@ theme:
   custom_dir: 'custom/'
   favicon: 'assets/cover.png'
   palette:
-    primary: 'Teal'
+    primary: 'Brown'
     accent: 'Blue'
   font:
     text: 'Roboto'
