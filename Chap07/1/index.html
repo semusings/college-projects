@@ -1,3 +1,4 @@
+<!-- Fix MathJax rendering on iOS Safari due to rendering long numbers as phone numbers. -->
 
 
 
@@ -6,12 +7,15 @@
 <html lang="en" class="no-js">
   <head>
     
+	
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
         <meta name="description" content="Introduction to College Projects. The textbook that a software developer must read.">
       
+      
+        <link rel="canonical" href="https://bhuwanupadhyay.github.io/college-projects/Chap07/1/">
       
       
         <meta name="author" content="Bhuwan Upadhyay">
@@ -35,18 +39,29 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="/college-projects/assets/favicon.png">
+      <link rel="shortcut icon" href="../../assets/favicon.png">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
     
+	<meta name="format-detection" content="telephone=no">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-2646JVG463"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-2646JVG463');
+	</script>
+
     
       
-        <title>College Projects</title>
+        <title>Easy FM Tuner - College Projects</title>
       
     
     
-      <link rel="stylesheet" href="/college-projects/assets/stylesheets/application.1b62728e.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.1b62728e.css">
       
-        <link rel="stylesheet" href="/college-projects/assets/stylesheets/application-palette.a8b3c06d.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
       
       
         
@@ -55,7 +70,7 @@
       
     
     
-      <script src="/college-projects/assets/javascripts/modernizr.268332fc.js"></script>
+      <script src="../../assets/javascripts/modernizr.268332fc.js"></script>
     
     
       
@@ -64,10 +79,10 @@
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
-    <link rel="stylesheet" href="/college-projects/assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
     
     
-      <link rel="stylesheet" href="/college-projects/css/katex.css">
+      <link rel="stylesheet" href="../../css/katex.css">
     
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css">
     
@@ -93,6 +108,10 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
+      <a href="#11-1" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -115,7 +134,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                
+                Easy FM Tuner
               
             </span>
           
@@ -226,7 +245,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/college-projects/." title="Preface" class="md-nav__link">
+    <a href="../.." title="Preface" class="md-nav__link">
       Preface
     </a>
   </li>
@@ -238,7 +257,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/college-projects/color/" title="Color" class="md-nav__link">
+    <a href="../../color/" title="Color" class="md-nav__link">
       Color
     </a>
   </li>
@@ -250,7 +269,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/college-projects/Chap02/1/" title="Easy Non Linear Equation Solver" class="md-nav__link">
+    <a href="../../Chap02/1/" title="Easy Non Linear Equation Solver" class="md-nav__link">
       Easy Non Linear Equation Solver
     </a>
   </li>
@@ -262,7 +281,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/college-projects/Chap03/1/" title="Easy Power Control" class="md-nav__link">
+    <a href="../../Chap03/1/" title="Easy Power Control" class="md-nav__link">
       Easy Power Control
     </a>
   </li>
@@ -274,7 +293,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/college-projects/Chap04/1/" title="Easy Media Player" class="md-nav__link">
+    <a href="../../Chap04/1/" title="Easy Media Player" class="md-nav__link">
       Easy Media Player
     </a>
   </li>
@@ -286,7 +305,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/college-projects/Chap05/1/" title="Easy Folder Locker" class="md-nav__link">
+    <a href="../../Chap05/1/" title="Easy Folder Locker" class="md-nav__link">
       Easy Folder Locker
     </a>
   </li>
@@ -298,7 +317,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/college-projects/Chap06/1/" title="Easy Lend Care" class="md-nav__link">
+    <a href="../../Chap06/1/" title="Easy Lend Care" class="md-nav__link">
       Easy Lend Care
     </a>
   </li>
@@ -308,11 +327,52 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="/college-projects/Chap07/1/" title="Easy FM Tuner" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Easy FM Tuner
+      </label>
+    
+    <a href="./" title="Easy FM Tuner" class="md-nav__link md-nav__link--active">
       Easy FM Tuner
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#11-1" class="md-nav__link">
+    1.1-1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-2" class="md-nav__link">
+    1.1-2
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -322,7 +382,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/college-projects/Chap08/1/" title="Easy Business Manger" class="md-nav__link">
+    <a href="../../Chap08/1/" title="Easy Business Manger" class="md-nav__link">
       Easy Business Manger
     </a>
   </li>
@@ -334,7 +394,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/college-projects/Chap09/1/" title="Easy Library" class="md-nav__link">
+    <a href="../../Chap09/1/" title="Easy Library" class="md-nav__link">
       Easy Library
     </a>
   </li>
@@ -347,12 +407,70 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#11-1" class="md-nav__link">
+    1.1-1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-2" class="md-nav__link">
+    1.1-2
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
-  <h1>404 - Not found</h1>
-
+                
+                  <a href="https://github.com/BhuwanUpadhyay/college-projects/edit/master/docs/Chap07/1.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                  <h1>Easy FM Tuner</h1>
+                
+                <h2 id="11-1">1.1-1</h2>
+<blockquote>
+<p>Give a real-world example that requires sorting or a real-world example that requires computing a convex hull.</p>
+</blockquote>
+<ul>
+<li>Sorting: browse the price of the restaurants with ascending prices on NTU street.</li>
+<li>Convex hull: computing the diameter of set of points.</li>
+</ul>
+<h2 id="11-2">1.1-2</h2>
+<blockquote>
+<p>Other than speed, what other measures of efficiency might one use in a real-world setting?</p>
+</blockquote>
+<p>Memory efficiency and coding efficiency.</p>
+                
+                  
+                
+                
+              
               
                 
 
@@ -365,6 +483,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../Chap06/1/" title="Easy Lend Care" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Easy Lend Care
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../Chap08/1/" title="Easy Business Manger" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Easy Business Manger
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -382,7 +535,7 @@
       </div>
       
   <div class="md-footer-social">
-    <link rel="stylesheet" href="/college-projects/assets/fonts/font-awesome.css">
+    <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
     
       <a href="https://github.com/BhuwanUpadhyay" class="md-footer-social__link fa fa-github"></a>
     
@@ -398,11 +551,11 @@
       
     </div>
     
-      <script src="/college-projects/assets/javascripts/application.808e90bb.js"></script>
+      <script src="../../assets/javascripts/application.808e90bb.js"></script>
       
-      <script>app.initialize({version:"1.0.4",url:{base:"/college-projects"}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       
-        <script src="/college-projects/js/katex.js"></script>
+        <script src="../../js/katex.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"></script>
       
