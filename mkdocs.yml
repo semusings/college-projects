@@ -61,6 +61,12 @@ markdown_extensions:
 nav:
   - Preface: index.md
   - Color: color.md
-  - I Foundations:
-      - 1 The Role of Cloud Computing:
-          - 1.1 Cloud Computing: Chap01/1.1.md
+  - Introduction: Chap01/1.md
+  - Easy Non Linear Equation Solver: Chap02/1.md
+  - Easy Power Control: Chap02/1.md
+  - Easy Media Player: Chap02/1.md
+  - Easy Folder Locker: Chap02/1.md
+  - Easy Lend Care: Chap02/1.md
+  - Easy FM Tuner: Chap02/1.md
+  - Easy Business Manger: Chap02/1.md
+  - Easy Library: Chap02/1.md

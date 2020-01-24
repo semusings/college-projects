@@ -1,4 +1,4 @@
-# A Beginner's Guide to **College Projects** _First Edition_
+# ** College Projects** _First Edition_
 
 ![College Projects](assets/cover.png)
 
