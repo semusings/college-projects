@@ -61,12 +61,11 @@ markdown_extensions:
 nav:
   - Preface: index.md
   - Color: color.md
-  - Introduction: Chap01/1.md
   - Easy Non Linear Equation Solver: Chap02/1.md
-  - Easy Power Control: Chap02/1.md
-  - Easy Media Player: Chap02/1.md
-  - Easy Folder Locker: Chap02/1.md
-  - Easy Lend Care: Chap02/1.md
-  - Easy FM Tuner: Chap02/1.md
-  - Easy Business Manger: Chap02/1.md
-  - Easy Library: Chap02/1.md
+  - Easy Power Control: Chap03/1.md
+  - Easy Media Player: Chap04/1.md
+  - Easy Folder Locker: Chap05/1.md
+  - Easy Lend Care: Chap06/1.md
+  - Easy FM Tuner: Chap07/1.md
+  - Easy Business Manger: Chap08/1.md
+  - Easy Library: Chap09/1.md
