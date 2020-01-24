@@ -16,7 +16,7 @@ theme:
   name: 'material'
   language: 'en'
   custom_dir: 'custom/'
-  favicon: 'assets/favicon.png'
+  favicon: 'assets/cover.png'
   palette:
     primary: 'Teal'
     accent: 'Blue'
@@ -36,20 +36,6 @@ extra:
     - type: 'linkedin'
       link: 'https://www.linkedin.com/in/developerbhuwan/'
 
-extra_css:
-  - 'css/katex.css'
-  - 'https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css'
-
-extra_javascript:
-  - 'js/katex.js'
-  - 'https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js'
-  - 'https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js'
-
-## Google Analytics
-#google_analytics:
-#  - 'G-2646JVG463'
-#  - 'auto'
-
 # Extensions
 markdown_extensions:
   - codehilite:
@@ -61,11 +47,11 @@ markdown_extensions:
 nav:
   - Preface: index.md
   - Color: color.md
-  - Easy Non Linear Equation Solver: Chap02/1.md
+  - Easy Non Linear Equation Solver: Chap01/1.md
+  - Easy Media Player: Chap02/1.md
   - Easy Power Control: Chap03/1.md
-  - Easy Media Player: Chap04/1.md
-  - Easy Folder Locker: Chap05/1.md
-  - Easy Lend Care: Chap06/1.md
-  - Easy FM Tuner: Chap07/1.md
-  - Easy Business Manger: Chap08/1.md
-  - Easy Library: Chap09/1.md
+  - Easy Folder Locker: Chap04/1.md
+  - Easy Lend Care: Chap05/1.md
+  - Easy FM Tuner: Chap06/1.md
+  - Easy Business Manger: Chap07/1.md
+  - Easy Library: Chap08/1.md

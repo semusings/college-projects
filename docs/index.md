@@ -4,8 +4,7 @@
 
 ## Getting Started
 
-This **[website](https://bhuwanupadhyay.github.io/college-projects/)** contains nearly complete solutions to college projects.
-
+This **[website](https://bhuwanupadhyay.github.io/college-projects/)** contains my complete college projects.
 ## More Information
 
 For a clear commit history, I rebase my repository regularly. Therefore, if you have forked the repository before, consider re-forking it again.
