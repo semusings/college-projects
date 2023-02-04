@@ -15,17 +15,9 @@
   </a>
 </p>
 
-# A Beginner's Guide to **College Projects** _First Edition_
+# My Undergraduate 8 Projects (from desktop to web applications)
 
-## Getting Started
-
-This **[website](https://bhuwanupadhyay.github.io/college-projects/)** contains nearly complete solutions to college projects.
-
-## More Information
-
-For a clear commit history, I rebase my repository regularly. Therefore, if you have forked the repository before, consider re-forking it again.
-
-For more information, please visit [**my GitHub**](https://github.com/BhuwanUpadhyay).
+This **[website](https://bhuwanupadhyay.github.io/college-projects/)** contains all 8 projects that I developed during my undergraduate course.
 
 ## License
 
